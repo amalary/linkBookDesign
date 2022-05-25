@@ -16,7 +16,7 @@ export default function Topbar() {
 
           <div className="searchBar">
             <SearchSharp className = "searchIcon"/>
-            
+
             <input placeholder = "Search" className="searchInput"/>
           </div>
 

@@ -54,12 +54,36 @@
 .topBarLink{
     margin-right: 15px;
     font-size: 13px;
+    cursor: pointer;
 }
+
+.topBarIcons{
+    display: flex;
+    cursor: pointer;  
+};
+
+.topBarIconItem{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.topBarIconBadge{
+    width:15px;
+    height:15px;
+    background-color: red;
+    border-radius: 20%;
+    font-size: 15px; 
+}
+
 
 .topBarImg{
     height:32px;
     width: 32px;
-
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+    
 }
 
 .logo{
