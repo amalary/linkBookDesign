@@ -49,7 +49,59 @@ return (
           <hr className='sidebarHr'/>
           <ul className="sidebarFriendList">
               <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" />
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
+                  <span className='sidebarFriendName'>Maryjane Watson</span>
+              </li>
+              <li className="sidebarFriend">
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
+                  <span className='sidebarFriendName'>Maryjane Watson</span>
+              </li>
+              <li className="sidebarFriend">
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
+                  <span className='sidebarFriendName'>Maryjane Watson</span>
+              </li>
+              <li className="sidebarFriend">
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
+                  <span className='sidebarFriendName'>Maryjane Watson</span>
+              </li>
+              <li className="sidebarFriend">
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
+                  <span className='sidebarFriendName'>Maryjane Watson</span>
+              </li>
+              <li className="sidebarFriend">
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
+                  <span className='sidebarFriendName'>Maryjane Watson</span>
+              </li>
+              <li className="sidebarFriend">
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
+                  <span className='sidebarFriendName'>Maryjane Watson</span>
+              </li>
+              <li className="sidebarFriend">
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
+                  <span className='sidebarFriendName'>Maryjane Watson</span>
+              </li>
+              <li className="sidebarFriend">
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
+                  <span className='sidebarFriendName'>Maryjane Watson</span>
+              </li>
+              <li className="sidebarFriend">
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
+                  <span className='sidebarFriendName'>Maryjane Watson</span>
+              </li>
+              <li className="sidebarFriend">
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
+                  <span className='sidebarFriendName'>Maryjane Watson</span>
+              </li>
+              <li className="sidebarFriend">
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
+                  <span className='sidebarFriendName'>Maryjane Watson</span>
+              </li>
+              <li className="sidebarFriend">
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
+                  <span className='sidebarFriendName'>Maryjane Watson</span>
+              </li>
+              <li className="sidebarFriend">
+                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
                   <span className='sidebarFriendName'>Maryjane Watson</span>
               </li>
           </ul>
