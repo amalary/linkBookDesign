@@ -2,6 +2,7 @@ import Feed from "../../components/feed/Feed"
 import Rightbar from "../../components/rightbar/Rightbar"
 import Sidebar from "../../components/sidebar/Sidebar"
 import Topbar from "../../components/topbar/Topbar"
+
 import '../home/home.css'
 
 export default function Home() {
@@ -13,6 +14,8 @@ export default function Home() {
         <Sidebar/>
         <Feed/>
         <Rightbar/>
+        
+        
 
         </div>
 
