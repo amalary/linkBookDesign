@@ -50,3 +50,19 @@
     cursor: pointer; 
     color:white;
 }
+
+.postUserName{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}; 
+
+.postDate{
+    font-size: 12px;
+
+};
