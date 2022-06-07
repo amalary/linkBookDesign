@@ -1,5 +1,7 @@
 import '../sidebar/sidebar.css'
 import {RssFeedSharp,ChatSharp,VideocamSharp,GroupsSharp,BookmarkSharp,HelpSharp,WorkSharp,EventAvailableSharp,SchoolSharp} from "@mui/icons-material"
+import {Users} from "../../exampleData"; 
+import CloseFriends from "../closeFriends/CloseFriends"
 
 export default function Sidebar() {
 
@@ -48,63 +50,12 @@ return (
           <button className='sidebarButton'>Show More</button>
           <hr className='sidebarHr'/>
           <ul className="sidebarFriendList">
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-              <li className="sidebarFriend">
-                  <img src="assets/profilePictures/maryjaneWatson.jpg" alt="" className='sidebarFriendImg' />
-                  <span className='sidebarFriendName'>Maryjane Watson</span>
-              </li>
-          </ul>
+
+             {Users.map((u) => (
+                <CloseFriends key = {u.id} user = {u}/>
+             ))}
+            </ul>
+             
          
        </div>
     
