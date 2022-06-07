@@ -1,33 +1,33 @@
 export const Users = [
 {
 
-    id:1,
+    id: 1,
     userName: 'Gwen Stacy',
     profilePicture: "assets/profilePictures/gwenStacy.jpg",
 },
 {
 
-    id:2,
+    id: 2,
     userName: 'Harry Osborn',
     profilePicture: "assets/profilePictures/harryOsborn.jpg",
 },
 {
 
-    id:3,
-    profilePicture: "assets/profilePicture/maryjaneWatson.png",
+    id: 3,
     userName: 'Maryjane Watson',
+    profilePicture: "assets/profilePictures/maryjaneWatson.png",
 },
 {
 
-    id:4,
-    profilePicture: "assets/profilePicture/misterOsborn.jpg",
+    id: 4,
     userName: 'Mr Osborn',
+    profilePicture: "assets/profilePictures/misterOsborn.jpg",
 },
 {
 
-    id:5,
-    profilePicture: "assets/profilePicture/stanLee.jpg",
+    id: 5,
     userName: 'Stan Lee',
+    profilePicture: "assets/profilePictures/stanLee.jpg",
 },
 ]
 
@@ -42,7 +42,7 @@ export const Posts = [
         date: "2 hours ago",
         userId: 1,
         likes: 28,
-        comments: 19,
+        comments: 22,
     },
     {
         id: 2,
@@ -51,9 +51,9 @@ export const Posts = [
         desc: "Spent the day studying",
         photo: "assets/Posts/harryStudy.jpg",
         date: "3 mins ago",
-        userId: 1,
-        likes: 98,
-        comments: 19,
+        userId: 2,
+        likes: 93,
+        comments: 65,
     },
     {
         id: 3,
@@ -61,10 +61,10 @@ export const Posts = [
         profileImg:"assets/profilePictures/maryjaneWatson.png",
         desc: "Quick selfie",
         photo: "assets/Posts/mjSelfie.jpg",
-        date: "3 mins ago",
-        userId: 1,
+        date: "8 mins ago",
+        userId: 3,
         likes: 112,
-        comments: 19,
+        comments: 9,
     },
     {
         id: 4,
@@ -72,10 +72,10 @@ export const Posts = [
         profileImg:"assets/profilePictures/misterOsborn.jpg",
         desc: "I'm something of an engineer myself",
         photo: "assets/Posts/mrOzzy.jpg",
-        date: "3 mins ago",
-        userId: 1,
+        date: "12 mins ago",
+        userId: 4,
         likes: 4,
-        comments: 19,
+        comments: 12,
     },
     {
         id: 5,
@@ -83,10 +83,10 @@ export const Posts = [
         profileImg:"assets/profilePictures/stanLee.jpg",
         desc: "Ran into some kid the other day who says he's Spiderman ",
         photo: "assets/Posts/stanCameo.jpg",
-        date: "3 mins ago",
-        userId: 1,
+        date: "7 mins ago",
+        userId: 5,
         likes: 298,
-        comments: 19,
+        comments: 1,
     },
 ]
 

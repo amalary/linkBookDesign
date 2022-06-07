@@ -3,6 +3,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.sidebar{
+    position: sticky; 
+    top: 50px; 
+    
+}
+
 .sidebarHr{
     margin: 20px 0;
 }

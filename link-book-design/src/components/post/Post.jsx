@@ -1,8 +1,10 @@
 import "../post/post.css"
 import {MoreVert} from "@mui/icons-material"
-import {Users,Posts} from "../../exampleData"
+import { Users } from "../../exampleData"
+
 
 export default function Post({post}) {
+    console.log(post)
     return (
     <div> 
         
@@ -10,9 +12,8 @@ export default function Post({post}) {
             <div className="postWrapper">
                 <div className="postTop">
                     <div className="postTopleft">
-                        <img className="postProfileImg" src= {post.profileImg} alt="" />
-                        <span className="postUserName">
-                            {Users.filter(u => u.id === post.userId)[0].userName}</span>
+                        <img className="postProfileImg" src= {Users.filter((u) => u.id === post?.userId)[0].profilePicture} alt="" />
+                        <span className="postUserName">{post.userName}</span>
                         <span className="postDate">{post.date}</span>
                     </div>
                     <div className="postTopRight"></div>
