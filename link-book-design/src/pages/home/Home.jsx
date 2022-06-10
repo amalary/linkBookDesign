@@ -8,19 +8,20 @@ import '../home/home.css'
 export default function Home() {
   return (
     <div>
-        
+        <>
         <Topbar/>
         <div className="homeContainer">
         <Sidebar/>
         <Feed/>
         <Rightbar/>
-        
-        
-
         </div>
-
-
-
+        </>
     </div>
-)
-}
+        )
+      }
+        
+        
+
+
+
+
