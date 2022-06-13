@@ -1,12 +1,13 @@
+import Home from "./pages/home/Home"
 
-import Login from "./components/login/Login";
 
 
 function App() {
   return (
     <div>
+      <Home/>
 
-      <Login/>
+  
       
       
 
