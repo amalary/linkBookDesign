@@ -1,12 +1,12 @@
 
-import Profile from "./pages/profile/Profile";
+import Login from "./components/login/Login";
 
 
 function App() {
   return (
     <div>
 
-      <Profile/>
+      <Login/>
       
       
 
